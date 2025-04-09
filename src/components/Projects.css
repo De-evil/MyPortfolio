@@ -1,0 +1,62 @@
+.projects-section {
+  padding: 90px 50px;
+  background-color: #4F959D;
+  background-image: url('/bgthree.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  
+  .projects-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: azure;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background-color: #c2ebde;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .project-card p {
+    margin-bottom: 10px;
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: 500;
+  }
+
+  /* .project-card {
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card:hover {
+    background: #9ACBD0;
+  } */ 
+
+  
+  

@@ -1,0 +1,90 @@
+.hero-section {
+  padding: 40px 20px; /* Reduced from 60px */
+  text-align: center;
+  background-image: url('/moon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Make it fill viewport */
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.hero-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(191, 198, 205);
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  font-weight: normal;
+  color: aliceblue;
+}
+
+.hero-description p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #005fd1;
+}
+
+.hero-button.secondary {
+  background-color: #555;
+}
+
+.hero-button.secondary:hover {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 20px;
+  }
+
+  .hero-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .hero-heading {
+    font-size: 1.8rem;
+  }
+}

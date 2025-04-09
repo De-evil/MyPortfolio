@@ -1,0 +1,64 @@
+.about-section {
+  padding: 60px 20px;
+  background: url('/grr.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #141111;
+  font-style: bold;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about-tech {
+    margin-top: 30px;
+  }
+  
+  .about-tech h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-tech ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 12px; */
+  }
+  
+  .about-tech li {
+    background-color: #f0f0f0;
+    padding: 12px 20px;
+    border-radius: 0 50px 50px 0;
+    font-weight: 500;
+    color: black;
+    /* display: inline-block; */
+    margin-bottom: 10px;
+  }
+
+  
+  
